@@ -1,0 +1,1660 @@
+{
+  "name": "cuadro_componente",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "155:223",
+    "version": "5077403004",
+    "component-id": "04e5e9ef6a048c11fef5115a7ff8765136f68d7c"
+  },
+  "default": "Property 1=normal",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Caracteristicascomponente"
+      },
+      {
+        "type": "image",
+        "id": "imagencomponente"
+      },
+      {
+        "type": "group",
+        "id": "precio"
+      },
+      {
+        "type": "text",
+        "id": "Lenovo IdeaPad | Intel Celeron N4020 15.6"
+      },
+      {
+        "type": "text",
+        "id": "230$"
+      },
+      {
+        "type": "text",
+        "id": "Intel Core i5-14500 2.6/5GHz"
+      },
+      {
+        "type": "text",
+        "id": "280$"
+      },
+      {
+        "type": "text",
+        "id": "Kingston FURY DDR4 3200MHz 16GB"
+      },
+      {
+        "type": "text",
+        "id": "52$"
+      },
+      {
+        "type": "text",
+        "id": "Gigabyte B760M DS3H DDR4"
+      },
+      {
+        "type": "text",
+        "id": "105$"
+      },
+      {
+        "type": "text",
+        "id": "Tempest Liquid Cooler 120 Kit"
+      },
+      {
+        "type": "text",
+        "id": "45$"
+      },
+      {
+        "type": "text",
+        "id": "Tempest PSU PRO 750W 80+ Bronze"
+      },
+      {
+        "type": "text",
+        "id": "47$"
+      },
+      {
+        "type": "text",
+        "id": "MSI Cubi 5 Intel Core i3-1215U"
+      },
+      {
+        "type": "text",
+        "id": "250$"
+      },
+      {
+        "type": "text",
+        "id": "Tempest Spectra RGB Torre ATX Blanca"
+      }
+    ],
+    "modes": {
+      "Property 1=normal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Lenovo IdeaPad | Intel Celeron N4020 15.6"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "230$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Lenovo IdeaPad | Intel Celeron N4020 15.6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Lenovo IdeaPad | Intel Celeron N4020  15.6",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "230$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "230$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Intel Core i5-14500 2.6/5GHz"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "280$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Intel Core i5-14500 2.6/5GHz",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Intel Core i5-14500 2.6/5GHz",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "280$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "280$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Kingston FURY DDR4 3200MHz 16GB"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "52$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Kingston FURY DDR4 3200MHz 16GB",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Kingston FURY DDR4 3200MHz 16GB",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "52$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "52$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Gigabyte B760M DS3H DDR4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente3.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "105$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Gigabyte B760M DS3H DDR4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Gigabyte B760M DS3H DDR4",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "105$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "105$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant5": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Tempest Liquid Cooler 120 Kit"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "45$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Tempest Liquid Cooler 120 Kit",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tempest Liquid Cooler 120 Kit",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "45$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "45$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant6": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Tempest PSU PRO 750W 80+ Bronze"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "47$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Tempest PSU PRO 750W 80+ Bronze",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tempest PSU PRO 750W 80+ Bronze",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "47$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "47$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant7": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "MSI Cubi 5 Intel Core i3-1215U"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente6.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "250$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "MSI Cubi 5 Intel Core i3-1215U",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "MSI Cubi 5 Intel Core i3-1215U",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "250$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "250$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      },
+      "Property 1=Variant8": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "8.0",
+            "is-structured": "false",
+            "children": [
+              "Caracteristicascomponente",
+              "imagencomponente"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Caracteristicascomponente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "precio",
+              "Tempest Spectra RGB Torre ATX Blanca"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.6338028169014",
+              "saturation": "0.5590551181102362",
+              "value": "0.4980392156862745"
+            }
+          },
+          {
+            "id": "imagencomponente",
+            "border-radius": "8.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-20.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "128.0"
+              }
+            },
+            "image-content": "imagencomponente7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "precio",
+            "border-radius": "7.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "230$"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Tempest Spectra RGB Torre ATX Blanca",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-24.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tempest Spectra RGB Torre ATX Blanca",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "230$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "227.04545454545456",
+              "saturation": "0.7457627118644067",
+              "value": "0.4627450980392157"
+            },
+            "text-content": "230$",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "8.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=normal",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant1",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant4",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant5",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant6",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant7",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    },
+    {
+      "design": "Property 1=Variant8",
+      "size": {
+        "width": 152.0,
+        "height": 168.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

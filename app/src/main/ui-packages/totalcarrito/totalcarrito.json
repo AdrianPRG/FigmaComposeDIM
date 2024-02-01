@@ -1,0 +1,102 @@
+{
+  "name": "totalcarrito",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "152:63",
+    "version": "5076333453",
+    "component-id": "5e09860b0df36fad5916a36e8b24e2c90236f910"
+  },
+  "default": "totalcarrito",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Precio total del carrito: 602$"
+      }
+    ],
+    "modes": {
+      "totalcarrito": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Precio total del carrito: 602$"
+            ],
+            "background-color": {
+              "alpha": "0.9176470588235294",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Precio total del carrito: 602$",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "16.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "329.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$precio_total_carrito_text_content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "18.0",
+            "line-height": "1.1879999372694228",
+            "typeface": "Poly"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "precio_total_carrito_text_content": {
+      "data-type": "text",
+      "required": false,
+      "description": "precio del carrito"
+    }
+  },
+  "previews": [
+    {
+      "design": "totalcarrito",
+      "size": {
+        "width": 360.0,
+        "height": 48.0
+      },
+      "parameters": {
+        "precio_total_carrito_text_content": "Precio total del carrito:     602$"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

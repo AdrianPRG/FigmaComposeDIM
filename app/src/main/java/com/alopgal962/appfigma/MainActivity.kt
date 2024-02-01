@@ -15,6 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import com.alopgal962.appfigma.routes.Routes
+import com.alopgal962.appfigma.screens.ScreenBuscar
+import com.alopgal962.appfigma.screens.Screencarrito
 
 import com.alopgal962.appfigma.screens.Screenprinci
 import com.alopgal962.appfigma.screens.Screenusuario
@@ -34,6 +36,8 @@ class MainActivity : ComponentActivity() {
                     NavHost(navController = navcontroller, startDestination = Routes.screeninicial.route){
                         composable(Routes.screeninicial.route) { Screenprinci(navController = navcontroller)}
                         composable(Routes.screenusuario.route) { Screenusuario(navController = navcontroller)}
+                        composable(Routes.screencarrito.route) { Screencarrito(navController = navcontroller)}
+                        composable(Routes.screenbucar.route) { ScreenBuscar(navController = navcontroller)}
                     }
                 }
             }

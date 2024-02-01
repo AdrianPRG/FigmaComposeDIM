@@ -1,0 +1,94 @@
+{
+  "name": "apartado_carrito",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "152:66",
+    "version": "5071172782",
+    "component-id": "a6b01f0e1053c58f12588a74b310ab0a71c3797c"
+  },
+  "default": "apartado_carrito",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Mi carrito"
+      }
+    ],
+    "modes": {
+      "apartado_carrito": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "4.0",
+            "is-structured": "false",
+            "children": [
+              "Mi carrito"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "226.41509433962264",
+              "saturation": "0.5824175824175825",
+              "value": "0.3568627450980392"
+            }
+          },
+          {
+            "id": "Mi carrito",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "168.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Mi carrito",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "apartado_carrito",
+      "size": {
+        "width": 263.0,
+        "height": 34.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

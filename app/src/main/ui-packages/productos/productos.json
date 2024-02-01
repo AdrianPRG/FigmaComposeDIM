@@ -1,0 +1,1069 @@
+{
+  "name": "productos",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "149:70",
+    "version": "5071194294",
+    "component-id": "b6fce99499f54bac2e997b191f3eec046d4eec65"
+  },
+  "default": "Property 1=variante2",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "especificaciones"
+      },
+      {
+        "type": "image",
+        "id": "imagencompo"
+      },
+      {
+        "type": "text",
+        "id": "Portatil"
+      },
+      {
+        "type": "group",
+        "id": "quitar"
+      },
+      {
+        "type": "group",
+        "id": "añadir"
+      },
+      {
+        "type": "text",
+        "id": "Marca: Asus Modelo: VivoBook Precio: 499$ Procesador: I5-1235 Ram: 16 GB DDR4"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorve2"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorv2"
+      },
+      {
+        "type": "text",
+        "id": "Componente"
+      },
+      {
+        "type": "text",
+        "id": "Marca: Corsair Modelo: Vengeance Precio: 49$ Tecnologia: DDR4"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorve1"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorv1"
+      },
+      {
+        "type": "text",
+        "id": "Marca: Asus Modelo: H610M Precio: 100$ Socket: LGA 1700"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorv0"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorve0"
+      }
+    ],
+    "modes": {
+      "Property 1=variante2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "is-structured": "false",
+            "children": [
+              "especificaciones",
+              "imagencompo",
+              "Portatil",
+              "quitar",
+              "añadir"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.4"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.98",
+                    "y": "0.02"
+                  },
+                  {
+                    "x": "0.03",
+                    "y": "1.0"
+                  },
+                  {
+                    "x": "0.49",
+                    "y": "-0.81"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "especificaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "131.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "36.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "132.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Marca: Asus Modelo: VivoBook Precio: 499$ Procesador: I5-1235 Ram: 16 GB DDR4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "imagencompo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "36.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "131.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              }
+            },
+            "image-content": "imagencompo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Portatil",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "102.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Portatil",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "quitar",
+            "border-radius": "3.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "224.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "tap-handler": "$on_quitar_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorve2"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.44680851063829785",
+              "value": "0.9215686274509803"
+            }
+          },
+          {
+            "id": "añadir",
+            "border-radius": "3.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "184.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "tap-handler": "$on_añadir_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorv2"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "129.5575221238938",
+              "saturation": "0.7434210526315789",
+              "value": "0.596078431372549"
+            }
+          },
+          {
+            "id": "Marca: Asus Modelo: VivoBook Precio: 499$ Procesador: I5-1235 Ram: 16 GB DDR4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Marca: Asus\nModelo: VivoBook\nPrecio:  499$\nProcesador: I5-1235\nRam: 16 GB DDR4",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectorve2",
+            "margin": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorve2.svg"
+          },
+          {
+            "id": "Vectorv2",
+            "margin": {
+              "left": "2.0",
+              "top": "2.0",
+              "right": "1.9999980926513672",
+              "bottom": "1.9999980926513672"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorv2.svg"
+          }
+        ]
+      },
+      "Property 1=variante1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "is-structured": "false",
+            "children": [
+              "especificaciones",
+              "imagencompo",
+              "Componente",
+              "quitar",
+              "añadir"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.4"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.98",
+                    "y": "0.02"
+                  },
+                  {
+                    "x": "0.03",
+                    "y": "1.0"
+                  },
+                  {
+                    "x": "0.49",
+                    "y": "-0.81"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "especificaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "131.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "36.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "132.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Marca: Corsair Modelo: Vengeance Precio: 49$ Tecnologia: DDR4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "imagencompo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "36.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "131.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              }
+            },
+            "image-content": "imagencompo1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Componente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "102.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$tipo_producto",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "quitar",
+            "border-radius": "3.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "232.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "tap-handler": "$on_quitar_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorve1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.44680851063829785",
+              "value": "0.9215686274509803"
+            }
+          },
+          {
+            "id": "añadir",
+            "border-radius": "3.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "192.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "tap-handler": "$on_añadir_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorv1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "129.5575221238938",
+              "saturation": "0.7434210526315789",
+              "value": "0.596078431372549"
+            }
+          },
+          {
+            "id": "Marca: Corsair Modelo: Vengeance Precio: 49$ Tecnologia: DDR4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Marca: Corsair\nModelo: Vengeance\nPrecio:  49$\nTecnologia: DDR4",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectorve1",
+            "margin": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorve1.svg"
+          },
+          {
+            "id": "Vectorv1",
+            "margin": {
+              "left": "2.0",
+              "top": "2.0",
+              "right": "1.9999980926513672",
+              "bottom": "1.9999980926513672"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorv1.svg"
+          }
+        ]
+      },
+      "Property 1=normal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "is-structured": "false",
+            "children": [
+              "especificaciones",
+              "imagencompo",
+              "Componente",
+              "añadir",
+              "quitar"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.4"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.98",
+                    "y": "0.02"
+                  },
+                  {
+                    "x": "0.03",
+                    "y": "1.0"
+                  },
+                  {
+                    "x": "0.49",
+                    "y": "-0.81"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "especificaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "65.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "18.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "132.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Marca: Asus Modelo: H610M Precio: 100$ Socket: LGA 1700"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "imagencompo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-66.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "36.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "131.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              }
+            },
+            "image-content": "imagencompo2.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Componente",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-65.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-44.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "102.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$tipo_producto",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "añadir",
+            "border-radius": "3.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "72.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-47.5"
+              }
+            },
+            "tap-handler": "$on_añadir_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorv0"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "129.5575221238938",
+              "saturation": "0.7434210526315789",
+              "value": "0.596078431372549"
+            }
+          },
+          {
+            "id": "quitar",
+            "border-radius": "3.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "112.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-47.5"
+              }
+            },
+            "tap-handler": "$on_quitar_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorve0"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.44680851063829785",
+              "value": "0.9215686274509803"
+            }
+          },
+          {
+            "id": "Marca: Asus Modelo: H610M Precio: 100$ Socket: LGA 1700",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "annotated-text-content": {
+              "text": "Marca: Asus\nModelo: H610M\nPrecio:  100$\nSocket: LGA 1700",
+              "annotated-text-span-list": [
+                {
+                  "span-start": "0",
+                  "span-length": "5",
+                  "annotated-text-style": {
+                    "font-weight": "500.0",
+                    "typeface": "Libre Bodoni"
+                  }
+                },
+                {
+                  "span-start": "5",
+                  "span-length": "7"
+                },
+                {
+                  "span-start": "12",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "font-weight": "500.0",
+                    "typeface": "Libre Bodoni"
+                  }
+                },
+                {
+                  "span-start": "18",
+                  "span-length": "8"
+                },
+                {
+                  "span-start": "26",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "font-weight": "500.0",
+                    "typeface": "Libre Bodoni"
+                  }
+                },
+                {
+                  "span-start": "32",
+                  "span-length": "8"
+                },
+                {
+                  "span-start": "40",
+                  "span-length": "6",
+                  "annotated-text-style": {
+                    "font-weight": "500.0",
+                    "typeface": "Libre Bodoni"
+                  }
+                },
+                {
+                  "span-start": "46",
+                  "span-length": "10"
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectorv0",
+            "margin": {
+              "left": "2.0",
+              "top": "2.0",
+              "right": "1.9999980926513672",
+              "bottom": "1.9999980926513672"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorv0.svg"
+          },
+          {
+            "id": "Vectorve0",
+            "margin": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorve0.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_quitar_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Eliminar cantidad/producto del carrito"
+    },
+    "on_añadir_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "añadir mas cantidad de un producto al carrito"
+    },
+    "tipo_producto": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=variante2",
+      "size": {
+        "width": 263.0,
+        "height": 127.0
+      },
+      "parameters": {
+        "tipo_producto": "Componente"
+      }
+    },
+    {
+      "design": "Property 1=variante1",
+      "size": {
+        "width": 263.0,
+        "height": 127.0
+      },
+      "parameters": {
+        "tipo_producto": "Componente"
+      }
+    },
+    {
+      "design": "Property 1=normal",
+      "size": {
+        "width": 263.0,
+        "height": 127.0
+      },
+      "parameters": {
+        "tipo_producto": "Componente"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
