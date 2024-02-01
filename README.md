@@ -1,1 +1,1 @@
-# FigmaComposeDIM
+# FigmaAndroidDIM

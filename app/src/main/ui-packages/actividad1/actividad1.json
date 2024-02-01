@@ -1,0 +1,372 @@
+{
+  "name": "actividad1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "152:89",
+    "version": "5069292031",
+    "component-id": "65d6c9aa8ef1fa95f01a1c73510045531cd53a7c"
+  },
+  "default": "actividad1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "historialcompra"
+      },
+      {
+        "type": "group",
+        "id": "comparaciones"
+      },
+      {
+        "type": "text",
+        "id": "Historial de compra"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:history-rounded"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorhistorial"
+      },
+      {
+        "type": "group",
+        "id": "fluent-mdl2:compare-uneven"
+      },
+      {
+        "type": "text",
+        "id": "Comparaciones"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorcomp"
+      }
+    ],
+    "modes": {
+      "actividad1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "10.0",
+            "is-structured": "false",
+            "children": [
+              "historialcompra",
+              "comparaciones"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.51"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.99",
+                    "y": "0.04"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.95"
+                  },
+                  {
+                    "x": "0.53",
+                    "y": "-5.71"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "historialcompra",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.000026702880859375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-30.626869201660156"
+              }
+            },
+            "tap-handler": "$on_historialcompra_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "118.22222137451172"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.29850769042969"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Historial de compra",
+              "material-symbols:history-rounded"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "comparaciones",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.4967613220214844"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "32.895530700683594"
+              }
+            },
+            "tap-handler": "$on_comparaciones_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "119.21569061279297"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.29850769042969"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "fluent-mdl2:compare-uneven",
+              "Comparaciones"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Historial de compra",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "8.49997329711914"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.37313079833984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Historial de compra",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "material-symbols:history-rounded",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-47.00002670288086"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.37313079833984375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorhistorial"
+            ]
+          },
+          {
+            "id": "Vectorhistorial",
+            "margin": {
+              "left": "2.0",
+              "top": "2.0",
+              "right": "1.9999990463256836",
+              "bottom": "1.9999980926513672"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorhistorial.svg"
+          },
+          {
+            "id": "fluent-mdl2:compare-uneven",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-42.107845306396484"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-1.6492538452148438"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorcomp"
+            ]
+          },
+          {
+            "id": "Comparaciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "13.023563385009766"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.000011444091796875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "79.1431884765625"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.149253845214844"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Comparaciones",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "10.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectorcomp",
+            "margin": {
+              "right": "0.9375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorcomp.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_historialcompra_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Para ir a historial"
+    },
+    "on_comparaciones_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Para ir a comparaciones"
+    }
+  },
+  "previews": [
+    {
+      "design": "actividad1",
+      "size": {
+        "width": 152.0,
+        "height": 152.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

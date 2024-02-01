@@ -1,0 +1,130 @@
+{
+  "name": "datosusuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "152:86",
+    "version": "5069277967",
+    "component-id": "93e3a340e1812ffe5590e4ef401eeb77c90484db"
+  },
+  "default": "datosusuario",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Registro de actividad"
+      }
+    ],
+    "modes": {
+      "datosusuario": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "10.0",
+            "is-structured": "false",
+            "children": [
+              "Registro de actividad"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "252.0",
+                      "saturation": "0.4970760233918128",
+                      "value": "0.6705882352941176"
+                    },
+                    "color-stop-position": "0.16"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "225.78947368421052",
+                      "saturation": "0.6129032258064516",
+                      "value": "0.24313725490196078"
+                    },
+                    "color-stop-position": "0.83"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "1.0",
+                    "y": "0.48"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.48"
+                  },
+                  {
+                    "x": "1.0",
+                    "y": "-26.2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Registro de actividad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "56.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "170.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Registro de actividad",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "datosusuario",
+      "size": {
+        "width": 282.0,
+        "height": 33.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

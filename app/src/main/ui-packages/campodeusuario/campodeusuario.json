@@ -1,0 +1,550 @@
+{
+  "name": "campodeusuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "152:72",
+    "version": "5069662604",
+    "component-id": "5a6659fea3b667d9c8a281c7b62429dcdb2c1f83"
+  },
+  "default": "campodeusuario",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "campopassword"
+      },
+      {
+        "type": "group",
+        "id": "campoemail"
+      },
+      {
+        "type": "group",
+        "id": "botonborrar"
+      },
+      {
+        "type": "group",
+        "id": "botonactualizar"
+      },
+      {
+        "type": "group",
+        "id": "mdi:lock"
+      },
+      {
+        "type": "text",
+        "id": "Contraseña..."
+      },
+      {
+        "type": "vector",
+        "id": "Vectorpass"
+      },
+      {
+        "type": "group",
+        "id": "mdi:user"
+      },
+      {
+        "type": "text",
+        "id": "Correo electronico.."
+      },
+      {
+        "type": "vector",
+        "id": "Vectoruser"
+      },
+      {
+        "type": "text",
+        "id": "textoborrar"
+      },
+      {
+        "type": "text",
+        "id": "textoactualizar"
+      }
+    ],
+    "modes": {
+      "campodeusuario": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "10.0",
+            "is-structured": "false",
+            "children": [
+              "campopassword",
+              "campoemail",
+              "botonborrar",
+              "botonactualizar"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.51"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.99",
+                    "y": "0.04"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.95"
+                  },
+                  {
+                    "x": "0.53",
+                    "y": "-5.71"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "campopassword",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.00002288818359375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "226.4545440673828"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "mdi:lock",
+              "Contraseña..."
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "campoemail",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.00000762939453125"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-56.25"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "225.59999084472656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.5"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "mdi:user",
+              "Correo electronico.."
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "botonborrar",
+            "border-radius": "2.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "64.18279266357422"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "68.5"
+              }
+            },
+            "tap-handler": "$on_botonborrar_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.92472839355469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "textoborrar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.3347107438016529",
+              "value": "0.9490196078431372"
+            }
+          },
+          {
+            "id": "botonactualizar",
+            "border-radius": "2.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-65.19351959228516"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "68.5"
+              }
+            },
+            "tap-handler": "$on_botonactualizar_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.92472839355469"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "31.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "textoactualizar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "93.33333333333334",
+              "saturation": "0.15254237288135597",
+              "value": "0.9254901960784314"
+            }
+          },
+          {
+            "id": "mdi:lock",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "6.60009765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.9375"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorpass"
+            ]
+          },
+          {
+            "id": "Contraseña...",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.127174377441406"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.0625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "153.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$contraseña_text_content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectorpass",
+            "margin": {
+              "left": "2.66668701171875",
+              "top": "0.6666641235351562",
+              "right": "2.666646957397461",
+              "bottom": "2.6666688919067383"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorpass.svg"
+          },
+          {
+            "id": "mdi:user",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.60009765625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectoruser"
+            ]
+          },
+          {
+            "id": "Correo electronico..",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.6998977661132812"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.25"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "153.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$email_text_content",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectoruser",
+            "margin": {
+              "left": "3.0",
+              "top": "2.666667938232422",
+              "right": "3.0",
+              "bottom": "2.6666650772094727"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectoruser.svg"
+          },
+          {
+            "id": "textoborrar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.46236419677734375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Borrar",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "11.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "textoactualizar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.46236419677734375"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Actualizar",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "11.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_botonborrar_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on_botonactualizar_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contraseña_text_content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "email_text_content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "campodeusuario",
+      "size": {
+        "width": 282.0,
+        "height": 200.0
+      },
+      "parameters": {
+        "contraseña_text_content": "Contraseña...",
+        "email_text_content": "Correo electronico.."
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,374 @@
+{
+  "name": "actividad2",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "152:99",
+    "version": "5069356770",
+    "component-id": "abdb08e50dd1612dc0f09c6b1b8ee8904424b5e4"
+  },
+  "default": "actividad2",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "favoritos"
+      },
+      {
+        "type": "group",
+        "id": "reseñas"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:favorite-outline"
+      },
+      {
+        "type": "text",
+        "id": "Favoritos"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorfavs"
+      },
+      {
+        "type": "text",
+        "id": "Tus reseñas"
+      },
+      {
+        "type": "group",
+        "id": "material-symbols:reviews-outline"
+      },
+      {
+        "type": "vector",
+        "id": "Vectorreseña"
+      }
+    ],
+    "modes": {
+      "actividad2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "10.0",
+            "is-structured": "false",
+            "children": [
+              "favoritos",
+              "reseñas"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.51"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.99",
+                    "y": "0.04"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.95"
+                  },
+                  {
+                    "x": "0.53",
+                    "y": "-5.71"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "favoritos",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-31.294130325317383"
+              }
+            },
+            "tap-handler": "$on_favoritos_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "95.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "35.764705657958984"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "material-symbols:favorite-outline",
+              "Favoritos"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "reseñas",
+            "border-radius": "5.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "30.73530387878418"
+              }
+            },
+            "tap-handler": "$on_reseñas_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "34.64706039428711"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Tus reseñas",
+              "material-symbols:reviews-outline"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "material-symbols:favorite-outline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-32.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.7941303253173828"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorfavs"
+            ]
+          },
+          {
+            "id": "Favoritos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "5.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.2941303253173828"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Favoritos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "9.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vectorfavs",
+            "margin": {
+              "left": "1.25",
+              "top": "1.65625",
+              "right": "1.25",
+              "bottom": "1.875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorfavs.svg"
+          },
+          {
+            "id": "Tus reseñas",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "10.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.7353038787841797"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Tus reseñas",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "10.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "material-symbols:reviews-outline",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-33.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.2646961212158203"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vectorreseña"
+            ]
+          },
+          {
+            "id": "Vectorreseña",
+            "margin": {
+              "left": "1.33331298828125",
+              "top": "1.333343505859375",
+              "right": "1.333353042602539",
+              "bottom": "1.3333234786987305"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vectorrese_a.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_favoritos_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Para ir a favoritos"
+    },
+    "on_reseñas_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Para ir a reseñas"
+    }
+  },
+  "previews": [
+    {
+      "design": "actividad2",
+      "size": {
+        "width": 114.0,
+        "height": 152.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
